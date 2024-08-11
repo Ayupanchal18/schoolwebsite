@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" class="text-2xl font-bold">School Name</a>
+                <button class="text-gray-500 md:hidden" id="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="hidden md:flex space-x-4">
+                    <li><a href="#" class="text-gray-700 hover:text-teal-500">Home</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-teal-500">About</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-teal-500">Blog</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-teal-500">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden">
+                <ul class="space-y-4">
+                    <li><a href="#" class="text-gray-700 block">Home</a></li>
+                    <li><a href="#" class="text-gray-700 block">About</a></li>
+                    <li><a href="#" class="text-gray-700 block">Blog</a></li>
+                    <li><a href="#" class="text-gray-700 block">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen" style="background-image: url('./bg_1.jpg.webp');">
+        <div class="container mx-auto h-full flex flex-col justify-center items-center text-center">
+            <h1 class="text-4xl md:text-6xl text-white font-bold">Welcome to Our School</h1>
+            <p class="text-lg md:text-xl text-white mt-4">We provide quality education for your children</p>
+            <a href="#about" class="mt-8 px-6 py-3 bg-teal-500 bg-white text-blue-500 rounded-lg text-lg">Learn More</a>
+        </div>
+    </section>
+
+
+
+
+    <!-- Features of School Section -->
+    <section id="features" class="py-16 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-8">Our School Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Experienced Faculty</h3>
+                    <p>Our teachers are highly qualified and experienced in their respective fields...</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">State-of-the-Art Facilities</h3>
+                    <p>We offer modern classrooms, labs, and sports facilities to enhance the learning experience...</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Holistic Education</h3>
+                    <p>We focus on the overall development of students, including academics, sports, and extracurricular
+                        activities...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-semibold text-center mb-8">Picture Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 1" class="w-full h-48 object-cover">
+                </div>
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 1" class="w-full h-48 object-cover">
+                </div>
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 1" class="w-full h-48 object-cover">
+                </div>
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 1" class="w-full h-48 object-cover">
+                </div>
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 1" class="w-full h-48 object-cover">
+                </div>
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 1" class="w-full h-48 object-cover">
+                </div>
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 1" class="w-full h-48 object-cover">
+                </div>
+                <div class="bg-white rounded shadow-lg overflow-hidden">
+                    <img src="https://picsum.photos/450/230" alt="Gallery Image 2" class="w-full h-48 object-cover">
+                </div>
+                <!-- Add more images here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="max-w-6xl mx-auto px-6 py-12">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-6">Learn More About Our Work And Our Cultural Activities</h2>
+            <p class="text-gray-600 mb-8">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+                ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.
+                <br>
+                Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum.
+                Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit
+                no sea diam.
+            </p>
+            <a href="#" class="inline-block bg-red-500 text-white py-3 px-6 rounded-lg hover:bg-red-600 transition">Read
+                More</a>
+        </div>
+
+        <div class="mt-12 flex justify-center gap-6">
+            <div class="flex-shrink-0">
+                <img class="rounded-full w-36 h-36 object-cover" src="https://picsum.photos/150"
+                    alt="Child reading books">
+            </div>
+            <div class="flex-shrink-0">
+                <img class="rounded-full w-36 h-36 object-cover" src="https://picsum.photos/150"
+                    alt="Child in play tunnel">
+            </div>
+            <div class="flex-shrink-0">
+                <img class="rounded-full w-36 h-36 object-cover" src="https://picsum.photos/150"
+                    alt="Child with camera toy">
+            </div>
+        </div>
+
+        <div class="mt-8 text-center">
+            <div class="flex justify-center items-center">
+                <img src="https://picsum.photos/50" alt="CEO" class="w-12 h-12 rounded-full">
+                <div class="ml-4">
+                    <p class="text-gray-800 font-bold">Jhon Doe</p>
+                    <p class="text-gray-500">CEO & Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Latest Articles From Blog</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Blog Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://picsum.photos/600/380" alt="Blog Image 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-2">Diam amet eos at no eos</h3>
+                        <div class="flex items-center text-xs text-gray-600 mb-3">
+                            <span class="mr-3"><i class="fas fa-user"></i> Admin</span>
+                            <span class="mr-3"><i class="fas fa-folder"></i> Web Design</span>
+                            <span><i class="fas fa-comments"></i> 15</span>
+                        </div>
+                        <p class="text-gray-700 mb-3">Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod,
+                            duo et sed sit eirmod kasd clita tempor dolor stet lorem...</p>
+                        <a href="#" class="bg-teal-500 text-white px-3 py-2 rounded hover:bg-teal-600">Read More</a>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://picsum.photos/600/380" alt="Blog Image 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-2">Diam amet eos at no eos</h3>
+                        <div class="flex items-center text-xs text-gray-600 mb-3">
+                            <span class="mr-3"><i class="fas fa-user"></i> Admin</span>
+                            <span class="mr-3"><i class="fas fa-folder"></i> Web Design</span>
+                            <span><i class="fas fa-comments"></i> 15</span>
+                        </div>
+                        <p class="text-gray-700 mb-3">Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod,
+                            duo et sed sit eirmod kasd clita tempor dolor stet lorem...</p>
+                        <a href="#" class="bg-teal-500 text-white px-3 py-2 rounded hover:bg-teal-600">Read More</a>
+                    </div>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://picsum.photos/600/380" alt="Blog Image 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold mb-2">Diam amet eos at no eos</h3>
+                        <div class="flex items-center text-xs text-gray-600 mb-3">
+                            <span class="mr-3"><i class="fas fa-user"></i> Admin</span>
+                            <span class="mr-3"><i class="fas fa-folder"></i> Web Design</span>
+                            <span><i class="fas fa-comments"></i> 15</span>
+                        </div>
+                        <p class="text-gray-700 mb-3">Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod,
+                            duo et sed sit eirmod kasd clita tempor dolor stet lorem...</p>
+                        <a href="#" class="bg-teal-500 text-white px-3 py-2 rounded hover:bg-teal-600">Read More</a>
+                    </div>
+                </div>
+                <!-- Repeat Blog Cards as needed -->
+            </div>
+        </div>
+    </section>
+    <!-- Blogs Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Get In Touch</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                    <input type="text" placeholder="Full name" class="w-full p-3 border rounded-md">
+                    <input type="email" placeholder="Email" class="w-full p-3 border rounded-md">
+                    <input type="text" placeholder="Phone Number" class="w-full p-3 border rounded-md">
+                </div>
+                <textarea placeholder="Message" class="w-full p-3 border rounded-md mb-4"></textarea>
+                <button type="submit" class="w-full py-3 bg-green-500 text-white rounded-lg">Send</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Us Section -->
+
+
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Logo and Description -->
+            <div>
+                <h2 class="text-2xl font-bold mb-4">School Name</h2>
+                <p class="mb-4">Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor,
+                    elit rebam duo est sed diam elitr.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Get In Touch</h3>
+                <ul>
+                    <li class="mb-2"><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</li>
+                    <li class="mb-2"><i class="fas fa-envelope"></i> info@example.com</li>
+                    <li><i class="fas fa-phone"></i> +012 345 67890</li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                <ul>
+                    <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+                    <li><a href="#about" class="hover:text-gray-400">About Us</a></li>
+                    <li><a href="#features" class="hover:text-gray-400">Our Classes</a></li>
+                    <li><a href="#gallery" class="hover:text-gray-400">Our Teachers</a></li>
+                    <li><a href="#blogs" class="hover:text-gray-400">Our Blog</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4">Newsletter</h3>
+                <form>
+                    <input class="w-full mb-4 px-3 py-2 text-gray-800 rounded" type="text" placeholder="Your Name"
+                        required>
+                    <input class="w-full mb-4 px-3 py-2 text-gray-800 rounded" type="email" placeholder="Your Email"
+                        required>
+                    <button class="w-full bg-teal-500 py-2 rounded hover:bg-teal-600 text-white" type="submit">Submit
+                        Now</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-gray-400 text-sm">
+            &copy; 2024 School Name. All Rights Reserved. Designed by HTML Codex. Distributed by ThemeWagon.
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+
+</html>
